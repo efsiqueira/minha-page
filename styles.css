@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #333;
+    background-image: url(https://i.pinimg.com/originals/94/32/cd/9432cdd515ab3d772334e471e230c211.jpg);
     color: #FFF;
     font-family: "Source Sans Pro", sans-serif;
 }
@@ -24,10 +24,17 @@ html, body, #container {
 }
 
 #container img {
-    height: 25rem;
-    width: 25rem;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
     border: 5px solid #3bb3f3;
+    transition: 0.8s;
+}
+
+#container img:hover {
+    height: 500px;
+    width: 500px;
+    cursor: pointer;    
 }
 
 #container h1 {
