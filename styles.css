@@ -24,7 +24,7 @@ html, body, #container {
     padding: 0 30px;
 }
 
-#container img {
+#container > img {
     height: 400px;
     width: 400px;
     border-radius: 50%;
@@ -32,7 +32,7 @@ html, body, #container {
     transition: 0.8s;
 }
 
-#container img:hover {
+#container > img:hover {
     height: 500px;
     width: 500px;
     cursor: pointer;    
@@ -45,19 +45,38 @@ html, body, #container {
 }
 
 #container h2 {
-    font-size: 1.375rem;
+    font-size: 22px;
     font-weight: 400;
     margin-top: 5px;
     opacity: 0.6;
 }
 
 #container p {
-    font-size: 1.25rem;
+    font-size: 20px;
     max-width: 500px;
     text-align: center;
     opacity: 0.8;
     line-height: 1.6;
     margin-top: 30px;
+}
+
+#container .links-linguagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#container .links-linguagens img {
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#container .links-linguagens img:hover {
+    height: 150px;
+    width: 150px;
+    transition: 0.8s;
 }
 
 #container .links {
@@ -78,3 +97,4 @@ html, body, #container {
     color: #3bb3f3;
     border-color: #3bb3f3;
 }
+
